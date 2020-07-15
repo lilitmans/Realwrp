@@ -20,7 +20,11 @@
     <link rel="manifest" href="assets/img/favicon/manifest.json">
     <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
 
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+
     <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.13.1/css/all.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.13.1/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
@@ -198,9 +202,9 @@
             </div>
             <div class="content-box flex-content">
                 <div>
-                    <iframe height="530" src="https://www.youtube.com/embed/4poxgP96FSs"
-                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
+<!--                    <iframe height="530" src="https://www.youtube.com/embed/4poxgP96FSs"-->
+<!--                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>-->
+<!--                    </iframe>-->
                     <p>«Ընդդեմ գենդերային բռնության ակտիվության 16-օրյակ» Մի՛ եղիր անտարբեր ակտիվության 16-օրյակ» Մի՛ եղիր անտարբեր ակտիվության 16-օրյակ» Մի՛ եղիր անտարբեր...</p>
                 </div>
                 <div class="images-box flex-content">
@@ -343,13 +347,30 @@
                            Կա արդյոք ինչ-որ հավանականություն, որ վիրուսը կարող է փոխանցվել այդպիսի պայմաններում:
                            Խայթոցների միջև ընկած ժամ</p>
                    </div>
-                   <div class="response-box red-line">
+                   <div class="response-box red-line closed">
                        <span>Պատասխան.</span>
                        <p>Կենցաղային ճանապարհով ՄԻԱՎ-ը չի փոխանցվում, ինչպես նաև կենդանիների միջոցով:
                            Հավելում. Եթե ձեր ընտանիքում կա ՄԻԱՎ-ով ապրող մարդ, նշանակում է ձեզ անհրաժեշտ է ուսումնասիրել
                            ՄԻԱՎ-ի մասին տեղեկատվություն, որպեսզի ձեր ընտանիքի անդամների համար ապահովեք հանգիստ և առողջ մթնոլորտ</p>
                    </div>
                </figure>
+                <figure>
+                    <div class="question-box flex-content">
+                        <div class="icon-box">
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <p>Բարև ձեզ: Իմ եղբայրը ՄԻԱՎ-դրական է: Մենք տանը ունենք տնային կենդանի, որը փախել էր, և
+                            երեխայիս հետ եղբայրս փորձում էր բռնել նրան: Սկզբում կենդանին կծեց եղբորս, հետո երեխայիս:
+                            Կա արդյոք ինչ-որ հավանականություն, որ վիրուսը կարող է փոխանցվել այդպիսի պայմաններում:
+                            Խայթոցների միջև ընկած ժամ</p>
+                    </div>
+                    <div class="response-box red-line closed">
+                        <span>Պատասխան.</span>
+                        <p>Կենցաղային ճանապարհով ՄԻԱՎ-ը չի փոխանցվում, ինչպես նաև կենդանիների միջոցով:
+                            Հավելում. Եթե ձեր ընտանիքում կա ՄԻԱՎ-ով ապրող մարդ, նշանակում է ձեզ անհրաժեշտ է ուսումնասիրել
+                            ՄԻԱՎ-ի մասին տեղեկատվություն, որպեսզի ձեր ընտանիքի անդամների համար ապահովեք հանգիստ և առողջ մթնոլորտ</p>
+                    </div>
+                </figure>
             </div>
             <div class="buttons-box">
                 <button class="btn-colored"><a href="#">Հաճախ տրվող հարցեր</a></button>
@@ -363,42 +384,137 @@
                 <p><a href="#">Հետևեք մեզ վերջին նորությունների վերաբերյալ</a></p>
             </div>
             <div id="_reviews-box">
-                <figure>
-                    <div class="reviewer-img-box img-box">
-                        <img src="assets/img/image3.png" alt="Reviewer Picture">
-                    </div>
-                    <div class="content-box">
-                        <div class="img-box quote-left ">
-                            <img src="assets/img/quote.png" alt="Quote Left">
+                <div class="slider-wrapper">
+                    <figure>
+                        <div class="reviewer-img-box img-box">
+                            <img src="assets/img/image3.png" alt="Reviewer Picture">
                         </div>
-                        <p>ԼԳԲՏ անձինք նամակներ են գրել իրենց ընտանիքներին։ Կազմակերպության կամավորներն ընթերցել են
-                            այդ նամակները և պատրաստել հոլովակներ։ Ներկայացնում ենք նամակներն առանց փոփոխության։
-                            Սիրելի զոքանչ, գուցե հենց այն օրվանից, որ իմացաք՝ աղջիկ եք ունենալը.</p>
-                        <div class="img-box quote-right">
-                            <img src="assets/img/quote.png" alt="Quote Right">
+                        <div class="content-box">
+                            <div class="img-box quote-left ">
+                                <img src="assets/img/quote.png" alt="Quote Left">
+                            </div>
+                            <p>ԼԳԲՏ անձինք նամակներ են գրել իրենց ընտանիքներին։ Կազմակերպության կամավորներն ընթերցել են
+                                այդ նամակները և պատրաստել հոլովակներ։ Ներկայացնում ենք նամակներն առանց փոփոխության։</p>
+                            <div class="img-box quote-right">
+                                <img src="assets/img/quote.png" alt="Quote Right">
+                            </div>
                         </div>
-                    </div>
-                    <span class="supporting-info"><i class="calendar-icon fa fa-calendar-alt"></i>27.06.2020</span>
-                </figure>
-                <figure>
-                    <div class="reviewer-img-box img-box">
-                        <img src="assets/img/image3.png" alt="Reviewer Picture">
-                    </div>
-                    <div class="content-box">
-                        <div class="img-box quote-left ">
-                            <img src="assets/img/quote.png" alt="Quote Left">
+                        <span class="supporting-info"><i class="calendar-icon fa fa-calendar-alt"></i>27.06.2020</span>
+                    </figure>
+                    <figure>
+                        <div class="reviewer-img-box img-box">
+                            <img src="assets/img/image3.png" alt="Reviewer Picture">
                         </div>
-                        <p>ԼԳԲՏ անձինք նամակներ են գրել իրենց ընտանիքներին։ Կազմակերպության կամավորներն ընթերցել են
-                            այդ նամակները և պատրաստել հոլովակներ։ Ներկայացնում ենք նամակներն առանց փոփոխության։
-                            Սիրելի զոքանչ, գուցե հենց այն օրվանից, որ իմացաք՝ աղջիկ եք ունենալը.</p>
-                        <div class="img-box quote-right">
-                            <img src="assets/img/quote.png" alt="Quote Right">
+                        <div class="content-box">
+                            <div class="img-box quote-left ">
+                                <img src="assets/img/quote.png" alt="Quote Left">
+                            </div>
+                            <p>ԼԳԲՏ անձինք նամակներ են գրել իրենց ընտանիքներին։ Կազմակերպության կամավորներն ընթերցել են
+                                այդ նամակները և պատրաստել հոլովակներ։ Ներկայացնում ենք նամակներն առանց փոփոխության։
+                                Սիրելի զոքանչ, գուցե հենց այն օրվանից, որ իմացաք՝ աղջիկ եք ունենալը.</p>
+                            <div class="img-box quote-right">
+                                <img src="assets/img/quote.png" alt="Quote Right">
+                            </div>
                         </div>
-                    </div>
-                    <span class="supporting-info"><i class="calendar-icon fa fa-calendar-alt"></i>27.06.2020</span>
-                </figure>
+                        <span class="supporting-info"><i class="calendar-icon fa fa-calendar-alt"></i>27.06.2020</span>
+                    </figure>
+                    <figure>
+                        <div class="reviewer-img-box img-box">
+                            <img src="assets/img/image3.png" alt="Reviewer Picture">
+                        </div>
+                        <div class="content-box">
+                            <div class="img-box quote-left ">
+                                <img src="assets/img/quote.png" alt="Quote Left">
+                            </div>
+                            <p>ԼԳԲՏ անձինք նամակներ են գրել իրենց ընտանիքներին։ Կազմակերպության կամավորներն ընթերցել են
+                                այդ նամակները և պատրաստել հոլովակներ։ Ներկայացնում ենք նամակներն առանց փոփոխության։
+                                Սիրելի զոքանչ, գուցե հենց այն օրվանից, որ իմացաք՝ աղջիկ եք ունենալը. ԼԳԲՏ անձինք նամակներ
+                                են գրել իրենց ընտանիքներին։ Կազմակերպության կամավորներն ընթերցել են
+                                այդ նամակները և պատրաստել հոլովակներ։ Ներկայացնում ենք նամակներն առանց փոփոխության։
+                                Սիրելի զոքանչ, գուցե հենց այն օրվանից, որ իմացաք՝ աղջիկ եք ունենալը.</p>
+                            <div class="img-box quote-right">
+                                <img src="assets/img/quote.png" alt="Quote Right">
+                            </div>
+                        </div>
+                        <span class="supporting-info"><i class="calendar-icon fa fa-calendar-alt"></i>27.06.2020</span>
+                    </figure>
+<!--                    <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>-->
+<!--                    <button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button>-->
+                </div>
             </div>
         </div>
     </section>
+
+    <footer>
+        <div id="_img-bg"></div>
+        <div class="content clear">
+            <div class="content-box flex-content">
+                <div class="footer-column">
+                    <div class="top-box">
+                        <div class="title"><a href="#">Մեր մասին</a></div>
+                        <p><a href="#">Հաճախ տրվող հարցեր</a></p>
+                        <p><a href="#">Կարգավորող փաստաթղթեր</a></p>
+                        <p><a href="#">Կապվել</a></p>
+                    </div>
+                    <div class="buttons-box">
+                        <button class="btn-important"><a href="#">DONATE</a></button>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="top-box">
+                        <div class="title"><a href="#">Հոդվածներ</a></div>
+                        <div class="title"><a href="#">Հայտարարություններ</a></div>
+                    </div>
+                    <div class="buttons-box">
+                        <button class="btn-bordered-inverse"><a href="#">Կապվել մեզ հետ</a></button>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="top-box">
+                        <div class="title"><a href="#">Իրադարձություններ</a></div>
+                    </div>
+
+                    <div class="media-box">
+                        <div class="title"><a href="#">Հետևեք մեզ</a></div>
+                        <div id="_youtube" class="media-item">
+                            <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                        </div>
+                        <div id="_facebook" class="media-item">
+                            <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        </div>
+                        <div id="_instagram" class="media-item">
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                        <div id="_telegram" class="media-item">
+                            <a href="#"><i class="fab fa-telegram-plane" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="top-box">
+                        <div class="title"><a href="#">Թեժ գիծ:</a></div>
+                        <div class="title"><a href="tel:+374 (98) 663-383">+374 (98) 663-383</a></div>
+                        <div class="title"><a href="tel:+374 (99) 653-383">+374 (99) 653-383</a></div>
+                    </div>
+                    <div class="title"><a href="#">info@realwrp.com</a></div>
+                </div>
+            </div>
+            <div id="_all-rights-reserved-line">
+                <p>
+                    <span>&copy;</span>
+                    <span id="_year">
+                    </span>
+                    «Իրական Աշխարհ, Իրական Մարդիկ»</p>
+                <p>Բոլոր իրավունքները պաշտպանված են</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>let year = new Date().getFullYear(); document.getElementById('_year').innerText = `${year.toString()}`;</script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-migrate-3.3.0.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 </html>
